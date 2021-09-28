@@ -1,0 +1,171 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 20px 0 50px 0;
+}
+
+#logo {
+    font-size: 30px;
+    padding: 0 10px 0 0;
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+#goldenIcon {
+    height:34px;
+    width:34px;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barLinks {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 10% 0 10%;
+}
+
+.hello {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information {
+    padding: 0 10% 5vh 10%;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.quoting {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10vh 20% 10vh 20%;
+    background-color: #e5e7eb;
+}
+
+#quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: left;
+}
+
+#author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15vw;
+    margin: 5vh 10% 5vh 10%;
+    padding: 20px 0 20px 0;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+.cDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    background-color: #1f2937;
+}
+
+main {
+    text-align: center;
+}
+
+.grey {
+    color: #e0e0e0;
+    font-size: 18px;
+}
+
+a {
+    padding: 0 10px 0 10px;
+    color: inherit;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.icon {
+    border: 3px solid #3882f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sub {
+    margin-top: 10px;
+    background-color: #274773;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px rgb(184, 184, 184);
+}
+
+h2 {
+    font-size: 36px;
+}
+
+#thor {
+    width: 40%;
+    height: auto;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #1b4588;
+}
